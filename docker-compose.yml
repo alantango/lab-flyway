@@ -1,3 +1,4 @@
+## comments go here
 version: "3.8"
 services:
   postgres-db:
@@ -10,6 +11,8 @@ services:
       POSTGRES_DB: testdb
     ports:
       - "5432:5432"
+
+## more comments here
   pgadmin:
     container_name: pgadmin4_ct
     image: dpage/pgadmin4
